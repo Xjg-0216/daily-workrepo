@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "415c44e0ef1de127",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c35f3e93cfa2dc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b07aa7d7714aabc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rk3588/readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fe0a6dd62331c7a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bca34d42975f999",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "267d160ca79f1cf2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3069a4b78ff33d2a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce505bb49aa2e13c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bdb033d3a4d3132c",
+    "type": "split",
+    "children": [
+      {
+        "id": "195e76b5f15f8ac2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9df3a410505fa86",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc221533154615fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rk3588/readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f6b4f40b07617b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rk3588/readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9922c89b665f7721",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c35b1063b3372281",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rk3588/readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "267d160ca79f1cf2",
+  "lastOpenFiles": [
+    "rk3588/readme.md",
+    "faiss_running_time.md",
+    "问题.md",
+    "VTL/ResNet-18.md",
+    "daily-note/2024-06-11.md",
+    "daily-note/2024-06-12.md",
+    "rk3588",
+    "jetson/tensorrt.md",
+    "daily-note/2024-06-06.md",
+    "daily-note/2024-06-07.md",
+    "jetson/onnx.md",
+    "VTL/pitts30k.md",
+    "ResNet18.md",
+    "imgs/5414512972.jpg",
+    "imgs",
+    "linux 常用命令.md",
+    "jetson/配置.md",
+    "daily-note/2024-06-05.md",
+    "daily-note/2024-06-04.md",
+    "daily-note/2024-06-03.md",
+    "daily-note/模板.md",
+    "daily-note",
+    "VTL/vlad.md",
+    "VTL/thermal_uav.md",
+    "VTL/code.md",
+    "VTL/imgs/Screenshot from 2024-05-22 15-05-46.png",
+    "VTL/imgs/20171213211422068.png",
+    "VTL/imgs",
+    "VTL",
+    "jetson/imgs/Pasted image 20240529112429.png",
+    "jetson/imgs/Pasted image 20240529112157.png",
+    "jetson/imgs/Pasted image 20240529112127.png",
+    "jetson/imgs/Pasted image 20240529094615.png",
+    "jetson/imgs",
+    "jetson"
+  ]
+}
