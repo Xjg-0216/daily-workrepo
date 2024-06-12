@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rk3588/readme.md",
+                "file": "daily-note/2024-06-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rk3588/readme.md",
+                "file": "daily-note/2024-06-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rk3588/readme.md",
+                "file": "daily-note/2024-06-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rk3588/readme.md"
+                "file": "daily-note/2024-06-13.md"
               }
             }
           }
@@ -154,14 +154,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "267d160ca79f1cf2",
+  "active": "4b07aa7d7714aabc",
   "lastOpenFiles": [
     "rk3588/readme.md",
+    "daily-note/2024-06-13.md",
+    "daily-note/2024-06-12.md",
     "faiss_running_time.md",
     "问题.md",
     "VTL/ResNet-18.md",
     "daily-note/2024-06-11.md",
-    "daily-note/2024-06-12.md",
     "rk3588",
     "jetson/tensorrt.md",
     "daily-note/2024-06-06.md",

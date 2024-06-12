@@ -3,6 +3,12 @@ rknn模型的推理运行有两种方式：
 * 直接在PC上利用模拟环境调用rknn模型进行推理运算
 * 利用rk3588的硬件NPU进行推理运算（需要在PC和RK3588开发板之间进行数据传输）
 
+为使用RKNPU，需要先在PC上运行RKNN-Toolkit2工具，将训练好的模型转换成RKNN格式的模型，然后在开发板上使用RKNN C API或Python API进行推理。 
+
+RKNN-Toolkit2是一套软件开发工具包，供用户在PC和Rockchip NPU平台上进行模型转换、推理和性能评估。 
+RKNN-Toolkit-Lite2为Rockchip NPU平台提供Python编程接口，帮助用户部署RKNN模型，加速AI应用落地。 
+RKNN Runtime为Rockchip NPU平台提供C/C++编程接口，帮助用户部署RKNN模型，加速AI应用落地。 RKNPU内核驱动负责与NPU硬件交互，已经开源，可以在Rockchip内核代码中找到。
+
 #### demo流程：
 
 
@@ -93,3 +99,6 @@ install
 ├── model # 存放模型、测试图片等文件
 └── rknn_yolov5_demo # 可执行文件
 ```
+
+
+
