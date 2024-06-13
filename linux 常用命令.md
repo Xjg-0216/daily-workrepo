@@ -97,3 +97,13 @@ pip install -e .
 
 `sudo apt-cache show nvidia-jetpack`
 
+#### 命令行和vscode的区别
+
+使用VSCode的`launch.json`配置文件与直接在命令行终端运行脚本的主要区别在于工作目录（working directory）的概念。在命令行终端中，您当前的工作目录通常是您启动终端时所在的目录，或者您可以使用`cd`命令切换到其他目录。当您在终端中运行脚本时，相对路径是相对于当前工作目录的。
+
+在VSCode中，`launch.json`中的`"program"`字段通常设置为`${file}`，这意味着它会运行当前打开的文件。然而，VSCode的工作目录默认是打开的文件夹的根目录，而不是当前文件的目录。因此，当您在`launch.json`的`"args"`字段中使用相对路径时，这些路径是相对于VSCode打开的文件夹的根目录，而不是相对于脚本所在的目录。
+
+如果您想在`launch.json`中使用相对路径并且希望它们相对于脚本所在的目录，您需要在`launch.json`中设置`"cwd"`字段（current working directory），如下所示：
+```
+"cwd": "${fileDirname}" // 设置当前工作目录为脚本所在的目录
+```
